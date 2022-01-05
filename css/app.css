@@ -1,0 +1,10 @@
+﻿body {
+}
+
+.rtl{
+    direction : rtl !important; 
+}
+
+.text-right{
+    text-align:right !important;
+}
