@@ -27,7 +27,7 @@
                         <div class="col-md-12">
                             <asp:TextBox runat="server" ID="captcha"  CssClass="form-control" placeholder="حروف زیر را وارد کنید" ClientIDMode="Static"></asp:TextBox>
                             <div class="mt-3 text-center">
-                                <botdetect:WebFormsCaptcha runat="server" id="captchabox" UserInputID="captcha" CodeLength="4"></botdetect:WebFormsCaptcha>
+                                <BotDetect:WebFormsCaptcha runat="server" id="captchabox" UserInputID="captcha" CodeLength="4"></BotDetect:WebFormsCaptcha>
                             </div>
                         </div>
                     </div>

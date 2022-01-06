@@ -10,6 +10,8 @@
         routes.MapPageRoute("download", "download", "~/download.aspx")
         routes.MapPageRoute("logout", "logout", "~/logout.aspx")
         routes.MapPageRoute("login", "login", "~/login.aspx")
+        routes.MapPageRoute("users", "users", "~/manage_users.aspx")
+        routes.MapPageRoute("404", "404", "~/404.aspx")
 
         'routes.MapPageRoute("admin_forms_action", "admin/forms/{FormAction}/{*FormID}", "~/admin/manage_forms.aspx")
         'routes.MapPageRoute("admin_forms", "admin/forms/", "~/admin/manage_forms.aspx")
